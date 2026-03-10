@@ -23,9 +23,9 @@ USE_MOCK_DATA = True
 # CREDENTIALS — loaded from GitHub Secrets (never hard-code these)
 # ==============================================================================
 FUEL_API_TOKEN = os.environ.get("FUEL_API_TOKEN", "")
-M365_EMAIL     = os.environ.get("M365_EMAIL",     "")
+M365_EMAIL     = os.environ.get("M365_EMAIL",     "no-reply@skiptrans.net")
 M365_PASSWORD  = os.environ.get("M365_PASSWORD",  "")
-_recipients    = os.environ.get("RECIPIENTS",     "")
+_recipients    = os.environ.get("RECIPIENTS",     "office@skiptrans.net")
 RECIPIENTS     = [r.strip() for r in _recipients.split(",")]
 
 # ==============================================================================
@@ -212,6 +212,27 @@ def build_plain_text(results, fetch_time):
     return "\n".join(lines)
 
 
+def write_prices_json(results, fetch_time):
+    """Write prices.json so the GitHub Pages dashboard stays current."""
+    import json
+    payload = {
+        "last_updated":     fetch_time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "last_updated_str": fetch_time.strftime("%A, %d %B %Y at %I:%M %p"),
+        "is_mock":          USE_MOCK_DATA,
+        "stations": [
+            {
+                "name":      r["name"],
+                "price":     r["price"],
+                "price_str": f"{r['price']:.1f}c/L" if r["price"] else "Not reported",
+            }
+            for r in results
+        ],
+    }
+    with open("prices.json", "w") as f:
+        json.dump(payload, f, indent=2)
+    print("✅ prices.json updated")
+
+
 def send_email(html_body, plain_body, fetch_time):
     date_str = fetch_time.strftime("%d %b %Y")
     subject  = f"{'[TEST] ' if USE_MOCK_DATA else ''}Daily Diesel Prices – {date_str}"
@@ -254,6 +275,7 @@ def main():
     print(f"📡 Fetching diesel prices — {fetch_time.strftime('%d %b %Y %H:%M')}")
 
     results    = build_results()
+    write_prices_json(results, fetch_time)
     html_body  = build_html_email(results, fetch_time)
     plain_body = build_plain_text(results, fetch_time)
     send_email(html_body, plain_body, fetch_time)

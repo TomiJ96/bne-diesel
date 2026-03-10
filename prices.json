@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-03-10T07:02:00",
+  "last_updated_str": "Tuesday, 10 March 2026 at 7:02 AM",
+  "is_mock": true,
+  "stations": [
+    { "name": "Pacific Fuel Blacksoil",  "price": 186.7, "price_str": "186.7c/L" },
+    { "name": "Pacific Fuel Rocklea",    "price": 187.9, "price_str": "187.9c/L" },
+    { "name": "Pacific Fuel Yatala",     "price": 185.5, "price_str": "185.5c/L" },
+    { "name": "Pacific Fuel Hemmant",    "price": 189.4, "price_str": "189.4c/L" },
+    { "name": "United Archerfield",      "price": 188.1, "price_str": "188.1c/L" },
+    { "name": "United Brendale",         "price": 191.3, "price_str": "191.3c/L" },
+    { "name": "United Meadowbrook",      "price": 187.5, "price_str": "187.5c/L" }
+  ]
+}
