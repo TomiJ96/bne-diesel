@@ -17,7 +17,7 @@ from datetime import datetime
 # ==============================================================================
 # TOGGLE — switch to False once your QLD Fuel API token is ready
 # ==============================================================================
-USE_MOCK_DATA = Falss
+USE_MOCK_DATA = False
 
 # ==============================================================================
 # CREDENTIALS — loaded from GitHub Secrets (never hard-code these)
