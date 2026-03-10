@@ -48,7 +48,7 @@ MONITORED_STATIONS = [
     {"name": "United Park Ridge",       "site_id": 61402439, "region_id": 1},
 ]
 
-DIESEL_FUEL_ID   = 2
+DIESEL_FUEL_ID   = 3
 FIND_STATIONS    = False   # set True temporarily to discover real Site IDs
 M365_SMTP_SERVER = "smtp.office365.com"
 M365_SMTP_PORT   = 587
