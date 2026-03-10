@@ -64,13 +64,14 @@ API_BASE         = "https://fppdirectapi-prod.fuelpricesqld.com.au"
 # Update these occasionally to keep test emails looking realistic
 # ==============================================================================
 MOCK_PRICES = {
-    61400001: 186.7,   # Pacific Fuel Blacksoil
-    61400002: 187.9,   # Pacific Fuel Rocklea
-    61400003: 185.5,   # Pacific Fuel Yatala
-    61400004: 189.4,   # Pacific Fuel Hemmant
-    61400005: 188.1,   # United Archerfield
-    61400006: 191.3,   # United Brendale
-    61400007: 187.5,   # United Meadowbrook
+    61402913: 186.7,   # Pacific Fuel Blacksoil
+    61401427: 187.9,   # Pacific Fuel Rocklea
+    61477080: 185.5,   # Pacific Fuel Yatala
+    61478256: 189.4,   # Pacific Fuel Hemmant
+    61477778: 188.1,   # United Archerfield
+    61477709: 191.3,   # United Brendale
+    61401773: 187.5,   # United Loganlea
+    61402439: 188.8,   # United Park Ridge
 }
 
 
@@ -272,7 +273,7 @@ def discover_stations():
     print("🔍 Discovering Brisbane stations...\n")
     sites  = get_all_sites(region_id=1)
     prices = get_prices(region_id=1)
-    diesel_ids = {p["SiteId"] for p in prices if p.get("FuelId") == DIESEL_FUEL_ID}
+    diesel_ids = {p["SiteId"] for p in prices if p.get("FuelId") == DIESEL_FUEL_IDS}
     print(f"{'SiteId':<12} {'Has Diesel':<12} Name")
     print("-" * 65)
     for s in sorted(sites, key=lambda x: x.get("N", "")):
@@ -282,7 +283,7 @@ def discover_stations():
 
 def main():
     if FIND_STATIONS:
-        discover_stations(GetFuelTypes)
+        discover_stations()
         return
 
     from datetime import timezone, timedelta
