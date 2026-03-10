@@ -291,12 +291,12 @@ def main():
 
     print(f"📡 Fetching diesel prices — {fetch_time.strftime('%d %b %Y %H:%M')}")
 
-    results    = build_results()
+    results = build_results()
     write_prices_json(results, fetch_time)
-    html_body  = build_html_email(results, fetch_time)
+    html_body = build_html_email(results, fetch_time)
     plain_body = build_plain_text(results, fetch_time)
-   if fetch_time.hour == 3:
-        send_email(build_html_email(results, fetch_time), build_plain_text(results, fetch_time), fetch_time)
+    if fetch_time.hour == 3:
+        send_email(html_body, plain_body, fetch_time)
         print("📧 Email sent (3am run)")
     else:
         print("⏭ Prices updated — no email (non-morning run)")
