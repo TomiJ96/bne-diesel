@@ -1,0 +1,37 @@
+name: Daily Diesel Price Email
+
+on:
+  schedule:
+    # 7:00 AM Brisbane time (AEST = UTC+10, so 21:00 UTC the night before)
+    # To change send time, adjust the hour below (all times in UTC):
+    #   6:00 AM AEST = 20:00 UTC  →  cron: '0 20 * * *'
+    #   7:00 AM AEST = 21:00 UTC  →  cron: '0 21 * * *'
+    #   8:00 AM AEST = 22:00 UTC  →  cron: '0 22 * * *'
+    - cron: '0 21 * * *'
+
+  # Allows manual trigger from the GitHub Actions tab (great for testing)
+  workflow_dispatch:
+
+jobs:
+  send-fuel-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fuel price emailer
+        env:
+          FUEL_API_TOKEN: ${{ secrets.FUEL_API_TOKEN }}
+          M365_EMAIL:     ${{ secrets.M365_EMAIL }}
+          M365_PASSWORD:  ${{ secrets.M365_PASSWORD }}
+          RECIPIENTS:     ${{ secrets.RECIPIENTS }}
+        run: python fuel_email.py
