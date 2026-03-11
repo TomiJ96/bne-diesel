@@ -273,16 +273,16 @@ def send_email(html_body, plain_body, fetch_time):
 
 
 def discover_stations():
-    """Print all Brisbane stations with their Site IDs. Set FIND_STATIONS=True to use."""
     print("🔍 Discovering Brisbane stations...\n")
     sites  = get_all_sites(region_id=1)
     prices = get_prices(region_id=1)
-    diesel_ids = {p["SiteId"] for p in prices if p.get("FuelId") == DIESEL_FUEL_IDS}
-    print(f"{'SiteId':<12} {'Has Diesel':<12} Name")
-    print("-" * 65)
-    for s in sorted(sites, key=lambda x: x.get("N", "")):
-        tag = "✓" if s.get("S") in diesel_ids else ""
-        print(f"{s.get('S'):<12} {tag:<12} {s.get('N', 'Unknown')}")
+    
+    # Show all fuel IDs reported by our monitored stations
+    target_ids = {s["site_id"] for s in MONITORED_STATIONS}
+    print("=== PRICES FOR MONITORED STATIONS ===")
+    for entry in prices:
+        if entry.get("SiteId") in target_ids:
+            print(f"  SiteId={entry['SiteId']}  FuelId={entry['FuelId']}  Price={entry['Price']/10:.1f}c/L")
 
 
 def main():
