@@ -585,14 +585,12 @@
       ? '<span class="badge badge-worst">Highest</span>'
       : '';
     const cls = isCheapest ? ' cheapest' : isPriciest ? ' priciest' : '';
-    const brand = s.name.startsWith('Pacific') ? 'Pacific Fuel' : 'United Petroleum';
 
     return `
     <div class="station-row${cls}">
       <div class="rank">${rank}</div>
       <div class="station-info">
         <div class="station-name">${s.name}</div>
-        <div class="station-brand">${brand}</div>
       </div>
       <div class="bar-wrap">
         <div class="bar-fill" style="width:${barPct}%; background:${barColor}"></div>
@@ -600,10 +598,11 @@
       ${badge}
       <div style="text-align:right; flex-shrink:0;">
         <div class="station-price" style="color:${priceColor}">
-          ${s.price != null ? s.price.toFixed(1) : '—'}<span class="price-unit">c/L</span>
+        ${s.price != null ? s.price.toFixed(1) : '—'}<span class="price-unit">c/L</span>
         </div>
-        ${s.fuel_type ? `<div style="font-size:10px; color:var(--muted); margin-top:1px;">${s.fuel_type}</div>` : ''}
-    </div>
+      ${s.fuel_type ? `<div style="font-size:10px; color:var(--muted); margin-top:1px;">${s.fuel_type}</div>` : ''}
+      ${s.price != null && s.price !== minP ? `<div style="font-size:10px; color:var(--muted); margin-top:1px;">+${(s.price - minP).toFixed(1)}c/L dearer</div>` : ''}
+      </div>
     </div>`;
   }
 
