@@ -588,23 +588,24 @@
 
     return `
     <div class="station-row${cls}">
-      <div class="rank">${rank}</<div class="station-info">
-      <div class="station-name">${s.name}</div>
+      <div class="rank">${rank}</div>
+      <div class="station-info">
+        <div class="station-name">${s.name}</div>
         ${s.fuel_type ? `<div class="station-brand">${s.fuel_type}</div>` : ''}
       </div>
-
       <div class="bar-wrap">
         <div class="bar-fill" style="width:${barPct}%; background:${barColor}"></div>
       </div>
       ${badge}
       <div style="text-align:right; flex-shrink:0;">
         <div class="station-price" style="color:${priceColor}">
-        ${s.price != null ? s.price.toFixed(1) : '—'}<span class="price-unit">c/L</span>
+          ${s.price != null ? s.price.toFixed(1) : '—'}<span class="price-unit">c/L</span>
         </div>
-      ${s.price != null && s.price !== minP ? `<div style="font-size:10px; color:var(--muted); margin-top:1px;">+${(s.price - minP).toFixed(1)}c/L dearer</div>` : ''}
+        ${s.price != null && s.price !== minP ? `<div style="font-size:10px; color:var(--muted); margin-top:1px;">+${(s.price - minP).toFixed(1)}c/L dearer</div>` : ''}
       </div>
     </div>`;
   }
+
 
   // ── Render just the station list (called on sort change too) ──
   function renderStations(data) {
