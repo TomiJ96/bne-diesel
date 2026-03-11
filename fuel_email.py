@@ -38,14 +38,14 @@ RECIPIENTS     = [r.strip() for r in _recipients.split(",")]
 #   5. Set FIND_STATIONS = False
 # ==============================================================================
 MONITORED_STATIONS = [
-    {"name": "Pacific Fuel Blacksoil",  "site_id": 61402913, "region_id": 1},
-    {"name": "Pacific Fuel Rocklea",    "site_id": 61401427, "region_id": 1},
-    {"name": "Pacific Fuel Yatala",     "site_id": 61477080, "region_id": 1},
-    {"name": "Pacific Fuel Hemmant",    "site_id": 61478256, "region_id": 1},
-    {"name": "United Archerfield",      "site_id": 61477778, "region_id": 1},
-    {"name": "United Brendale",         "site_id": 61477709, "region_id": 1},
-    {"name": "United Loganlea",         "site_id": 61401773, "region_id": 1},
-    {"name": "United Park Ridge",       "site_id": 61402439, "region_id": 1},
+    {"name": "Pacific Fuel - Blacksoil",  "site_id": 61402913, "region_id": 1},
+    {"name": "Pacific Fuel - Rocklea",    "site_id": 61401427, "region_id": 1},
+    {"name": "Pacific Fuel - Yatala",     "site_id": 61477080, "region_id": 1},
+    {"name": "Pacific Fuel - Hemmant",    "site_id": 61478256, "region_id": 1},
+    {"name": "United Petrol - Archerfield",      "site_id": 61477778, "region_id": 1},
+    {"name": "United Petrol - Brendale",         "site_id": 61477709, "region_id": 1},
+    {"name": "United Petrol - Loganlea",         "site_id": 61401773, "region_id": 1},
+    {"name": "United Petrol - Park Ridge",       "site_id": 61402439, "region_id": 1},
 ]
 
 DIESEL_FUEL_IDS = {
