@@ -2,6 +2,7 @@ name: Daily Diesel Price Email
 
 on:
   schedule:
+    - cron: '0 16 * * *'   # 2:00 AM AEST
     - cron: '0 17 * * *'   # 3:00 AM AEST  ← email run
     - cron: '0 20 * * *'   # 6:00 AM AEST
     - cron: '0 0 * * *'    # 10:00 AM AEST
