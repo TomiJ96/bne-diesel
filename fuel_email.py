@@ -101,8 +101,11 @@ def find_diesel_price(prices, site_id):
     for fuel_id in DIESEL_FUEL_IDS:
         for entry in prices:
             if entry.get("SiteId") == site_id and entry.get("FuelId") == fuel_id:
+                price = round(entry["Price"] / 10.0, 1)
+                if price > 500:
+                    return None
                 return {
-                    "price": round(entry["Price"] / 10.0, 1),
+                    "price": price,
                     "fuel_type": DIESEL_FUEL_IDS[fuel_id]
                 }
     return None
