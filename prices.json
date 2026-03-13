@@ -1,54 +1,54 @@
 {
-  "last_updated": "2026-03-13T12:00:24",
-  "last_updated_str": "Friday, 13 March 2026 at 12:00 PM",
+  "last_updated": "2026-03-13T12:32:42",
+  "last_updated_str": "Friday, 13 March 2026 at 12:32 PM",
   "is_mock": false,
   "stations": [
     {
       "name": "Pacific Fuel - Blacksoil",
-      "price": 249.9,
-      "price_str": "249.9c/L",
+      "price": 240.9,
+      "price_str": "240.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 249.9,
-      "price_str": "249.9c/L",
+      "price": 240.9,
+      "price_str": "240.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Yatala",
-      "price": 249.9,
-      "price_str": "249.9c/L",
+      "price": 240.9,
+      "price_str": "240.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Hemmant",
-      "price": 249.9,
-      "price_str": "249.9c/L",
+      "price": 240.9,
+      "price_str": "240.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Archerfield",
-      "price": 255.5,
-      "price_str": "255.5c/L",
+      "price": 251.5,
+      "price_str": "251.5c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 255.9,
-      "price_str": "255.9c/L",
+      "price": 251.9,
+      "price_str": "251.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 257.9,
-      "price_str": "257.9c/L",
+      "price": 253.9,
+      "price_str": "253.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 255.9,
-      "price_str": "255.9c/L",
+      "price": 251.9,
+      "price_str": "251.9c/L",
       "fuel_type": "Diesel"
     }
   ]
