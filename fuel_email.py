@@ -48,6 +48,11 @@ MONITORED_STATIONS = [
     {"name": "United Petrol - Park Ridge",       "site_id": 61402439, "region_id": 1},
 ]
 
+SUPPLIER_DISCOUNTS = {
+    "Pacific": 9.0,
+    "United":  4.0,
+}
+
 DIESEL_FUEL_IDS = {
     3:    "Diesel",
     6:    "ULSD",
@@ -117,7 +122,8 @@ def build_results():
     if USE_MOCK_DATA:
         print("ℹ️  Running in MOCK DATA mode — prices are simulated.")
         return [
-            {"name": s["name"], "price": MOCK_PRICES.get(s["site_id"]), "fuel_type": "Diesel"}
+            {"name": s["name"], "price": round(MOCK_PRICES.get(s["site_id"]) - (9.0 if s["name"].startswith("Pacific") else 4.0), 1), "fuel_type": "Diesel"}
+
             for s in MONITORED_STATIONS
         ]
 
@@ -129,7 +135,10 @@ def build_results():
         price = find_diesel_price(all_prices[station["region_id"]], station["site_id"])
         p = price["price"] if price else None
         t = price["fuel_type"] if price else None
-        results.append({"name": station["name"], "price": p, "fuel_type": t})
+        discount = SUPPLIER_DISCOUNTS["Pacific"] if station["name"].startswith("Pacific") else SUPPLIER_DISCOUNTS["United"]
+        discounted = round(p - discount, 1) if p else None
+        results.append({"name": station["name"], "price": discounted, "fuel_type": t})
+
         print(f"  {station['name']}: {f'{p:.1f}c/L ({t})' if p else 'not found'}")
     return results
 
@@ -301,7 +310,7 @@ def main():
     write_prices_json(results, fetch_time)
     html_body = build_html_email(results, fetch_time)
     plain_body = build_plain_text(results, fetch_time)
-    if fetch_time.hour == 6:
+    if fetch_time.hour == 4:
         send_email(html_body, plain_body, fetch_time)
         print("📧 Email sent (3am run)")
     else:
