@@ -283,16 +283,13 @@ def send_email(html_body, plain_body, fetch_time):
 
 
 def discover_stations():
-    print("🔍 Checking fuel types available...\n")
+    print("🔍 Checking fuel types for Ampol Yarrabilba...\n")
     prices = get_prices(region_id=1)
-    fuel_ids = {}
     for entry in prices:
-        fid = entry.get("FuelId")
-        if fid not in fuel_ids:
-            fuel_ids[fid] = entry.get("Price", 0) / 10.0
-    for fid, sample_price in sorted(fuel_ids.items()):
-        print(f"  FuelId={fid}  Sample price={sample_price:.1f}c/L")
-
+        if entry.get("SiteId") == 61477660:
+            fid = entry.get("FuelId")
+            price = entry.get("Price", 0) / 10.0
+            print(f"  FuelId={fid}  Price={price:.1f}c/L")
 
 
 def main():
