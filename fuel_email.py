@@ -54,12 +54,8 @@ SUPPLIER_DISCOUNTS = {
 }
 
 DIESEL_FUEL_IDS = {
-    2:    "Unleaded 91",
     3:    "Diesel",
-    5:    "Unleaded 95",
     6:    "ULSD",
-    8:    "Unleaded 98",
-    12:   "Ethanol 10",
     14:   "Premium Diesel",
     1000: "Diesel/Premium",
 }
