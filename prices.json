@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-15T08:00:22",
-  "last_updated_str": "Sunday, 15 March 2026 at 08:00 AM",
+  "last_updated": "2026-03-15T12:00:25",
+  "last_updated_str": "Sunday, 15 March 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -35,14 +35,14 @@
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 261.9,
-      "price_str": "261.9c/L",
+      "price": 256.9,
+      "price_str": "256.9c/L",
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 264.9,
-      "price_str": "264.9c/L",
+      "price": 256.9,
+      "price_str": "256.9c/L",
       "fuel_type": "Diesel"
     },
     {
