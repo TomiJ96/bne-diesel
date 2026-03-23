@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-23T12:00:23",
-  "last_updated_str": "Monday, 23 March 2026 at 12:00 PM",
+  "last_updated": "2026-03-23T16:00:22",
+  "last_updated_str": "Monday, 23 March 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -54,9 +54,9 @@
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 290.9,
-      "price_str": "290.9c/L",
-      "price_bowser": 294.9,
+      "price": 291.9,
+      "price_str": "291.9c/L",
+      "price_bowser": 295.9,
       "fuel_type": "Diesel"
     }
   ]
