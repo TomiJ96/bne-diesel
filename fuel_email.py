@@ -59,7 +59,7 @@ DIESEL_FUEL_IDS = {
     14:   "Premium Diesel",
     1000: "Diesel/Premium",
 }
-FIND_STATIONS    = false   # set True temporarily to discover real Site IDs
+FIND_STATIONS    = False   # set True temporarily to discover real Site IDs
 M365_SMTP_SERVER = "smtp.office365.com"
 M365_SMTP_PORT   = 587
 API_BASE         = "https://fppdirectapi-prod.fuelpricesqld.com.au"
