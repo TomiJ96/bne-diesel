@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-20T12:00:29",
-  "last_updated_str": "Wednesday, 20 May 2026 at 12:00 PM",
+  "last_updated": "2026-05-20T16:00:29",
+  "last_updated_str": "Wednesday, 20 May 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -47,9 +47,9 @@
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 221.9,
-      "price_str": "221.9c/L",
-      "price_bowser": 225.9,
+      "price": 221.3,
+      "price_str": "221.3c/L",
+      "price_bowser": 225.3,
       "fuel_type": "Diesel"
     },
     {
