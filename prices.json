@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-21T08:00:29",
-  "last_updated_str": "Thursday, 21 May 2026 at 08:00 AM",
+  "last_updated": "2026-05-21T12:00:24",
+  "last_updated_str": "Thursday, 21 May 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -12,9 +12,9 @@
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 216.9,
-      "price_str": "216.9c/L",
-      "price_bowser": 225.9,
+      "price": 212.9,
+      "price_str": "212.9c/L",
+      "price_bowser": 221.9,
       "fuel_type": "Diesel"
     },
     {
@@ -26,9 +26,9 @@
     },
     {
       "name": "Pacific Fuel - Hemmant",
-      "price": 220.9,
-      "price_str": "220.9c/L",
-      "price_bowser": 229.9,
+      "price": 216.9,
+      "price_str": "216.9c/L",
+      "price_bowser": 225.9,
       "fuel_type": "Diesel"
     },
     {
