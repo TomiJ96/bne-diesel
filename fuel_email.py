@@ -42,10 +42,13 @@ MONITORED_STATIONS = [
     {"name": "Pacific Fuel - Rocklea",    "site_id": 61401427, "region_id": 1},
     {"name": "Pacific Fuel - Yatala",     "site_id": 61477080, "region_id": 1},
     {"name": "Pacific Fuel - Hemmant",    "site_id": 61478256, "region_id": 1},
+    {"name": "Pacific Fuel - Caboolture",    "site_id": 61402765, "region_id": 1},
     {"name": "United Petrol - Archerfield",      "site_id": 61477778, "region_id": 1},
     {"name": "United Petrol - Brendale",         "site_id": 61477709, "region_id": 1},
     {"name": "United Petrol - Loganlea",         "site_id": 61401773, "region_id": 1},
     {"name": "United Petrol - Park Ridge",       "site_id": 61402439, "region_id": 1},
+    {"name": "United Petrol - Beaudesert",       "site_id": 61478218, "region_id": 1},
+    {"name": "United Petrol - Forestdale",       "site_id": 61402405, "region_id": 1},
 ]
 
 SUPPLIER_DISCOUNTS = {
