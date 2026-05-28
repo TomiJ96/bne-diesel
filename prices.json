@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-28T12:00:30",
-  "last_updated_str": "Thursday, 28 May 2026 at 12:00 PM",
+  "last_updated": "2026-05-28T16:00:32",
+  "last_updated_str": "Thursday, 28 May 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -47,9 +47,9 @@
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 222.9,
-      "price_str": "222.9c/L",
-      "price_bowser": 226.9,
+      "price": 219.3,
+      "price_str": "219.3c/L",
+      "price_bowser": 223.3,
       "fuel_type": "Diesel"
     },
     {
@@ -68,9 +68,9 @@
     },
     {
       "name": "United Petrol - Beaudesert",
-      "price": 215.9,
-      "price_str": "215.9c/L",
-      "price_bowser": 219.9,
+      "price": 205.9,
+      "price_str": "205.9c/L",
+      "price_bowser": 209.9,
       "fuel_type": "Diesel"
     },
     {
