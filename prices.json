@@ -1,48 +1,48 @@
 {
-  "last_updated": "2026-05-29T08:00:31",
-  "last_updated_str": "Friday, 29 May 2026 at 08:00 AM",
+  "last_updated": "2026-05-29T12:00:35",
+  "last_updated_str": "Friday, 29 May 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
       "name": "Pacific Fuel - Blacksoil",
-      "price": 217.9,
-      "price_str": "217.9c/L",
-      "price_bowser": 226.9,
+      "price": 210.9,
+      "price_str": "210.9c/L",
+      "price_bowser": 219.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 210.9,
-      "price_str": "210.9c/L",
-      "price_bowser": 219.9,
+      "price": 206.9,
+      "price_str": "206.9c/L",
+      "price_bowser": 215.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Yatala",
-      "price": 210.9,
-      "price_str": "210.9c/L",
-      "price_bowser": 219.9,
+      "price": 206.9,
+      "price_str": "206.9c/L",
+      "price_bowser": 215.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Hemmant",
+      "price": 206.9,
+      "price_str": "206.9c/L",
+      "price_bowser": 215.9,
+      "fuel_type": "Diesel"
+    },
+    {
+      "name": "Pacific Fuel - Caboolture",
       "price": 210.9,
       "price_str": "210.9c/L",
       "price_bowser": 219.9,
       "fuel_type": "Diesel"
     },
     {
-      "name": "Pacific Fuel - Caboolture",
-      "price": 216.9,
-      "price_str": "216.9c/L",
-      "price_bowser": 225.9,
-      "fuel_type": "Diesel"
-    },
-    {
       "name": "United Petrol - Archerfield",
-      "price": 210.5,
-      "price_str": "210.5c/L",
-      "price_bowser": 214.5,
+      "price": 203.5,
+      "price_str": "203.5c/L",
+      "price_bowser": 207.5,
       "fuel_type": "Diesel"
     },
     {
@@ -75,9 +75,9 @@
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 221.9,
-      "price_str": "221.9c/L",
-      "price_bowser": 225.9,
+      "price": 217.9,
+      "price_str": "217.9c/L",
+      "price_bowser": 221.9,
       "fuel_type": "Diesel"
     }
   ]
