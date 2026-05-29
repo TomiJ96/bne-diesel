@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-29T12:00:35",
-  "last_updated_str": "Friday, 29 May 2026 at 12:00 PM",
+  "last_updated": "2026-05-29T16:00:29",
+  "last_updated_str": "Friday, 29 May 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -75,9 +75,9 @@
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 217.9,
-      "price_str": "217.9c/L",
-      "price_bowser": 221.9,
+      "price": 215.9,
+      "price_str": "215.9c/L",
+      "price_bowser": 219.9,
       "fuel_type": "Diesel"
     }
   ]
