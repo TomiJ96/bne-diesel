@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-06-04T08:00:35",
-  "last_updated_str": "Thursday, 04 June 2026 at 08:00 AM",
+  "last_updated": "2026-06-04T12:00:33",
+  "last_updated_str": "Thursday, 04 June 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
       "name": "Pacific Fuel - Blacksoil",
-      "price": 206.9,
-      "price_str": "206.9c/L",
-      "price_bowser": 215.9,
+      "price": 203.9,
+      "price_str": "203.9c/L",
+      "price_bowser": 212.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 200.9,
-      "price_str": "200.9c/L",
-      "price_bowser": 209.9,
+      "price": 198.9,
+      "price_str": "198.9c/L",
+      "price_bowser": 207.9,
       "fuel_type": "Diesel"
     },
     {
@@ -33,9 +33,9 @@
     },
     {
       "name": "Pacific Fuel - Caboolture",
-      "price": 204.9,
-      "price_str": "204.9c/L",
-      "price_bowser": 213.9,
+      "price": 202.9,
+      "price_str": "202.9c/L",
+      "price_bowser": 211.9,
       "fuel_type": "Diesel"
     },
     {
@@ -54,16 +54,16 @@
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 208.9,
-      "price_str": "208.9c/L",
-      "price_bowser": 212.9,
+      "price": 209.5,
+      "price_str": "209.5c/L",
+      "price_bowser": 213.5,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 209.9,
-      "price_str": "209.9c/L",
-      "price_bowser": 213.9,
+      "price": 211.9,
+      "price_str": "211.9c/L",
+      "price_bowser": 215.9,
       "fuel_type": "Diesel"
     },
     {
@@ -75,9 +75,9 @@
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 205.9,
-      "price_str": "205.9c/L",
-      "price_bowser": 209.9,
+      "price": 207.9,
+      "price_str": "207.9c/L",
+      "price_bowser": 211.9,
       "fuel_type": "Diesel"
     }
   ]
