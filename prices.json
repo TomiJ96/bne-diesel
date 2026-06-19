@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-19T16:00:41",
-  "last_updated_str": "Friday, 19 June 2026 at 04:00 PM",
+  "last_updated": "2026-06-19T20:00:40",
+  "last_updated_str": "Friday, 19 June 2026 at 08:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -19,9 +19,9 @@
     },
     {
       "name": "Pacific Fuel - Yatala",
-      "price": 184.9,
-      "price_str": "184.9c/L",
-      "price_bowser": 193.9,
+      "price": 180.9,
+      "price_str": "180.9c/L",
+      "price_bowser": 189.9,
       "fuel_type": "Diesel"
     },
     {
@@ -61,9 +61,9 @@
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 195.9,
-      "price_str": "195.9c/L",
-      "price_bowser": 199.9,
+      "price": 191.9,
+      "price_str": "191.9c/L",
+      "price_bowser": 195.9,
       "fuel_type": "Diesel"
     },
     {
