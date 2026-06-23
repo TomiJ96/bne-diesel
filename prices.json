@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-23T08:00:39",
-  "last_updated_str": "Tuesday, 23 June 2026 at 08:00 AM",
+  "last_updated": "2026-06-23T12:00:38",
+  "last_updated_str": "Tuesday, 23 June 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -12,44 +12,44 @@
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 176.9,
-      "price_str": "176.9c/L",
-      "price_bowser": 185.9,
+      "price": 173.9,
+      "price_str": "173.9c/L",
+      "price_bowser": 182.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Yatala",
+      "price": 173.9,
+      "price_str": "173.9c/L",
+      "price_bowser": 182.9,
+      "fuel_type": "Diesel"
+    },
+    {
+      "name": "Pacific Fuel - Hemmant",
       "price": 176.9,
       "price_str": "176.9c/L",
       "price_bowser": 185.9,
       "fuel_type": "Diesel"
     },
     {
-      "name": "Pacific Fuel - Hemmant",
-      "price": 180.9,
-      "price_str": "180.9c/L",
-      "price_bowser": 189.9,
-      "fuel_type": "Diesel"
-    },
-    {
       "name": "Pacific Fuel - Caboolture",
-      "price": 180.9,
-      "price_str": "180.9c/L",
-      "price_bowser": 189.9,
+      "price": 176.9,
+      "price_str": "176.9c/L",
+      "price_bowser": 185.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Archerfield",
-      "price": 169.7,
-      "price_str": "169.7c/L",
-      "price_bowser": 173.7,
+      "price": 169.3,
+      "price_str": "169.3c/L",
+      "price_bowser": 173.3,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 169.9,
-      "price_str": "169.9c/L",
-      "price_bowser": 173.9,
+      "price": 167.9,
+      "price_str": "167.9c/L",
+      "price_bowser": 171.9,
       "fuel_type": "Diesel"
     },
     {
@@ -68,16 +68,16 @@
     },
     {
       "name": "United Petrol - Beaudesert",
-      "price": 184.9,
-      "price_str": "184.9c/L",
-      "price_bowser": 188.9,
+      "price": 180.9,
+      "price_str": "180.9c/L",
+      "price_bowser": 184.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 181.9,
-      "price_str": "181.9c/L",
-      "price_bowser": 185.9,
+      "price": 175.9,
+      "price_str": "175.9c/L",
+      "price_bowser": 179.9,
       "fuel_type": "Diesel"
     }
   ]
