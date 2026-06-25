@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-25T12:00:42",
-  "last_updated_str": "Thursday, 25 June 2026 at 12:00 PM",
+  "last_updated": "2026-06-25T16:00:39",
+  "last_updated_str": "Thursday, 25 June 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -40,16 +40,16 @@
     },
     {
       "name": "United Petrol - Archerfield",
-      "price": 169.3,
-      "price_str": "169.3c/L",
-      "price_bowser": 173.3,
+      "price": 165.9,
+      "price_str": "165.9c/L",
+      "price_bowser": 169.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 165.9,
-      "price_str": "165.9c/L",
-      "price_bowser": 169.9,
+      "price": 163.9,
+      "price_str": "163.9c/L",
+      "price_bowser": 167.9,
       "fuel_type": "Diesel"
     },
     {
