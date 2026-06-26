@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-26T12:00:36",
-  "last_updated_str": "Friday, 26 June 2026 at 12:00 PM",
+  "last_updated": "2026-06-26T16:00:38",
+  "last_updated_str": "Friday, 26 June 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -54,16 +54,16 @@
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 181.3,
-      "price_str": "181.3c/L",
-      "price_bowser": 185.3,
+      "price": 179.9,
+      "price_str": "179.9c/L",
+      "price_bowser": 183.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 181.9,
-      "price_str": "181.9c/L",
-      "price_bowser": 185.9,
+      "price": 179.9,
+      "price_str": "179.9c/L",
+      "price_bowser": 183.9,
       "fuel_type": "Diesel"
     },
     {
