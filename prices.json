@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-01T04:00:39",
-  "last_updated_str": "Wednesday, 01 July 2026 at 04:00 AM",
+  "last_updated": "2026-07-01T08:00:38",
+  "last_updated_str": "Wednesday, 01 July 2026 at 08:00 AM",
   "is_mock": false,
   "stations": [
     {
@@ -40,44 +40,44 @@
     },
     {
       "name": "United Petrol - Archerfield",
-      "price": 164.9,
-      "price_str": "164.9c/L",
-      "price_bowser": 168.9,
+      "price": 180.9,
+      "price_str": "180.9c/L",
+      "price_bowser": 184.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 164.9,
-      "price_str": "164.9c/L",
-      "price_bowser": 168.9,
+      "price": 180.9,
+      "price_str": "180.9c/L",
+      "price_bowser": 184.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 175.9,
-      "price_str": "175.9c/L",
-      "price_bowser": 179.9,
+      "price": 191.9,
+      "price_str": "191.9c/L",
+      "price_bowser": 195.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 175.3,
-      "price_str": "175.3c/L",
-      "price_bowser": 179.3,
+      "price": 191.3,
+      "price_str": "191.3c/L",
+      "price_bowser": 195.3,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Beaudesert",
-      "price": 179.9,
-      "price_str": "179.9c/L",
-      "price_bowser": 183.9,
+      "price": 195.9,
+      "price_str": "195.9c/L",
+      "price_bowser": 199.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 169.9,
-      "price_str": "169.9c/L",
-      "price_bowser": 173.9,
+      "price": 185.9,
+      "price_str": "185.9c/L",
+      "price_bowser": 189.9,
       "fuel_type": "Diesel"
     }
   ]
