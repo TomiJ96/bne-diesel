@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-06T12:00:42",
-  "last_updated_str": "Monday, 06 July 2026 at 12:00 PM",
+  "last_updated": "2026-07-06T16:00:49",
+  "last_updated_str": "Monday, 06 July 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -68,16 +68,16 @@
     },
     {
       "name": "United Petrol - Beaudesert",
-      "price": 175.9,
-      "price_str": "175.9c/L",
-      "price_bowser": 179.9,
+      "price": 173.9,
+      "price_str": "173.9c/L",
+      "price_bowser": 177.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 180.9,
-      "price_str": "180.9c/L",
-      "price_bowser": 184.9,
+      "price": 182.9,
+      "price_str": "182.9c/L",
+      "price_bowser": 186.9,
       "fuel_type": "Diesel"
     }
   ]
