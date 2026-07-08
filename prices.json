@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-08T12:01:02",
-  "last_updated_str": "Wednesday, 08 July 2026 at 12:01 PM",
+  "last_updated": "2026-07-08T16:01:01",
+  "last_updated_str": "Wednesday, 08 July 2026 at 04:01 PM",
   "is_mock": false,
   "stations": [
     {
@@ -47,9 +47,9 @@
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 181.3,
-      "price_str": "181.3c/L",
-      "price_bowser": 185.3,
+      "price": 175.3,
+      "price_str": "175.3c/L",
+      "price_bowser": 179.3,
       "fuel_type": "Diesel"
     },
     {
