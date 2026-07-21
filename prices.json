@@ -1,41 +1,41 @@
 {
-  "last_updated": "2026-07-21T08:00:44",
-  "last_updated_str": "Tuesday, 21 July 2026 at 08:00 AM",
+  "last_updated": "2026-07-21T12:00:43",
+  "last_updated_str": "Tuesday, 21 July 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
       "name": "Pacific Fuel - Blacksoil",
-      "price": 206.9,
-      "price_str": "206.9c/L",
-      "price_bowser": 215.9,
+      "price": 210.9,
+      "price_str": "210.9c/L",
+      "price_bowser": 219.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 203.9,
-      "price_str": "203.9c/L",
-      "price_bowser": 212.9,
+      "price": 205.9,
+      "price_str": "205.9c/L",
+      "price_bowser": 214.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Yatala",
+      "price": 206.9,
+      "price_str": "206.9c/L",
+      "price_bowser": 215.9,
+      "fuel_type": "Diesel"
+    },
+    {
+      "name": "Pacific Fuel - Hemmant",
       "price": 203.9,
       "price_str": "203.9c/L",
       "price_bowser": 212.9,
       "fuel_type": "Diesel"
     },
     {
-      "name": "Pacific Fuel - Hemmant",
-      "price": 200.9,
-      "price_str": "200.9c/L",
-      "price_bowser": 209.9,
-      "fuel_type": "Diesel"
-    },
-    {
       "name": "Pacific Fuel - Caboolture",
-      "price": 206.9,
-      "price_str": "206.9c/L",
-      "price_bowser": 215.9,
+      "price": 210.9,
+      "price_str": "210.9c/L",
+      "price_bowser": 219.9,
       "fuel_type": "Diesel"
     },
     {
@@ -54,9 +54,9 @@
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 210.9,
-      "price_str": "210.9c/L",
-      "price_bowser": 214.9,
+      "price": 211.9,
+      "price_str": "211.9c/L",
+      "price_bowser": 215.9,
       "fuel_type": "Diesel"
     },
     {
