@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-25T12:00:42",
-  "last_updated_str": "Saturday, 25 July 2026 at 12:00 PM",
+  "last_updated": "2026-07-25T16:00:47",
+  "last_updated_str": "Saturday, 25 July 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -68,9 +68,9 @@
     },
     {
       "name": "United Petrol - Beaudesert",
-      "price": 211.9,
-      "price_str": "211.9c/L",
-      "price_bowser": 215.9,
+      "price": 215.9,
+      "price_str": "215.9c/L",
+      "price_bowser": 219.9,
       "fuel_type": "Diesel"
     },
     {
