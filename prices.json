@@ -1,41 +1,41 @@
 {
-  "last_updated": "2026-07-28T08:00:43",
-  "last_updated_str": "Tuesday, 28 July 2026 at 08:00 AM",
+  "last_updated": "2026-07-28T12:00:46",
+  "last_updated_str": "Tuesday, 28 July 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
       "name": "Pacific Fuel - Blacksoil",
+      "price": 230.9,
+      "price_str": "230.9c/L",
+      "price_bowser": 239.9,
+      "fuel_type": "Diesel"
+    },
+    {
+      "name": "Pacific Fuel - Rocklea",
       "price": 223.9,
       "price_str": "223.9c/L",
       "price_bowser": 232.9,
       "fuel_type": "Diesel"
     },
     {
-      "name": "Pacific Fuel - Rocklea",
-      "price": 220.9,
-      "price_str": "220.9c/L",
-      "price_bowser": 229.9,
-      "fuel_type": "Diesel"
-    },
-    {
       "name": "Pacific Fuel - Yatala",
-      "price": 220.9,
-      "price_str": "220.9c/L",
-      "price_bowser": 229.9,
+      "price": 226.9,
+      "price_str": "226.9c/L",
+      "price_bowser": 235.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Hemmant",
-      "price": 220.9,
-      "price_str": "220.9c/L",
-      "price_bowser": 229.9,
+      "price": 223.9,
+      "price_str": "223.9c/L",
+      "price_bowser": 232.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Caboolture",
-      "price": 220.9,
-      "price_str": "220.9c/L",
-      "price_bowser": 229.9,
+      "price": 223.9,
+      "price_str": "223.9c/L",
+      "price_bowser": 232.9,
       "fuel_type": "Diesel"
     },
     {
@@ -47,16 +47,16 @@
     },
     {
       "name": "United Petrol - Brendale",
-      "price": 223.5,
-      "price_str": "223.5c/L",
-      "price_bowser": 227.5,
+      "price": 225.9,
+      "price_str": "225.9c/L",
+      "price_bowser": 229.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Loganlea",
-      "price": 228.9,
-      "price_str": "228.9c/L",
-      "price_bowser": 232.9,
+      "price": 231.9,
+      "price_str": "231.9c/L",
+      "price_bowser": 235.9,
       "fuel_type": "Diesel"
     },
     {
@@ -68,9 +68,9 @@
     },
     {
       "name": "United Petrol - Beaudesert",
-      "price": 225.9,
-      "price_str": "225.9c/L",
-      "price_bowser": 229.9,
+      "price": 227.9,
+      "price_str": "227.9c/L",
+      "price_bowser": 231.9,
       "fuel_type": "Diesel"
     },
     {
