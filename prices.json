@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-31T04:00:50",
-  "last_updated_str": "Friday, 31 July 2026 at 04:00 AM",
+  "last_updated": "2026-07-31T08:05:46",
+  "last_updated_str": "Friday, 31 July 2026 at 08:05 AM",
   "is_mock": false,
   "stations": [
     {
@@ -12,9 +12,9 @@
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 226.9,
-      "price_str": "226.9c/L",
-      "price_bowser": 235.9,
+      "price": 230.9,
+      "price_str": "230.9c/L",
+      "price_bowser": 239.9,
       "fuel_type": "Diesel"
     },
     {
@@ -26,23 +26,23 @@
     },
     {
       "name": "Pacific Fuel - Hemmant",
-      "price": 226.9,
-      "price_str": "226.9c/L",
-      "price_bowser": 235.9,
+      "price": 230.9,
+      "price_str": "230.9c/L",
+      "price_bowser": 239.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Caboolture",
-      "price": 226.9,
-      "price_str": "226.9c/L",
-      "price_bowser": 235.9,
+      "price": 230.9,
+      "price_str": "230.9c/L",
+      "price_bowser": 239.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "United Petrol - Archerfield",
-      "price": 219.5,
-      "price_str": "219.5c/L",
-      "price_bowser": 223.5,
+      "price": 221.5,
+      "price_str": "221.5c/L",
+      "price_bowser": 225.5,
       "fuel_type": "Diesel"
     },
     {
@@ -61,9 +61,9 @@
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 234.9,
-      "price_str": "234.9c/L",
-      "price_bowser": 238.9,
+      "price": 235.9,
+      "price_str": "235.9c/L",
+      "price_bowser": 239.9,
       "fuel_type": "Diesel"
     },
     {
