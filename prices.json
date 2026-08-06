@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-06T12:00:48",
-  "last_updated_str": "Thursday, 06 August 2026 at 12:00 PM",
+  "last_updated": "2026-08-06T16:00:43",
+  "last_updated_str": "Thursday, 06 August 2026 at 04:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -12,10 +12,10 @@
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": null,
-      "price_str": "Not reported",
-      "price_bowser": null,
-      "fuel_type": ""
+      "price": 243.9,
+      "price_str": "243.9c/L",
+      "price_bowser": 252.9,
+      "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Yatala",
