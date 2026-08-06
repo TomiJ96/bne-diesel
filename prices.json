@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-06T08:00:52",
-  "last_updated_str": "Thursday, 06 August 2026 at 08:00 AM",
+  "last_updated": "2026-08-06T12:00:48",
+  "last_updated_str": "Thursday, 06 August 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -12,23 +12,23 @@
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 243.9,
-      "price_str": "243.9c/L",
-      "price_bowser": 252.9,
-      "fuel_type": "Diesel"
+      "price": null,
+      "price_str": "Not reported",
+      "price_bowser": null,
+      "fuel_type": ""
     },
     {
       "name": "Pacific Fuel - Yatala",
-      "price": 243.9,
-      "price_str": "243.9c/L",
-      "price_bowser": 252.9,
+      "price": 244.9,
+      "price_str": "244.9c/L",
+      "price_bowser": 253.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Hemmant",
-      "price": 242.9,
-      "price_str": "242.9c/L",
-      "price_bowser": 251.9,
+      "price": 243.9,
+      "price_str": "243.9c/L",
+      "price_bowser": 252.9,
       "fuel_type": "Diesel"
     },
     {
@@ -75,9 +75,9 @@
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 241.9,
-      "price_str": "241.9c/L",
-      "price_bowser": 245.9,
+      "price": 243.9,
+      "price_str": "243.9c/L",
+      "price_bowser": 247.9,
       "fuel_type": "Diesel"
     }
   ]
