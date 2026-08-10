@@ -1,41 +1,41 @@
 {
-  "last_updated": "2026-08-10T08:00:47",
-  "last_updated_str": "Monday, 10 August 2026 at 08:00 AM",
+  "last_updated": "2026-08-10T12:00:50",
+  "last_updated_str": "Monday, 10 August 2026 at 12:00 PM",
   "is_mock": false,
   "stations": [
     {
       "name": "Pacific Fuel - Blacksoil",
-      "price": 249.9,
-      "price_str": "249.9c/L",
-      "price_bowser": 258.9,
+      "price": 243.9,
+      "price_str": "243.9c/L",
+      "price_bowser": 252.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Rocklea",
-      "price": 243.9,
-      "price_str": "243.9c/L",
-      "price_bowser": 252.9,
+      "price": 240.9,
+      "price_str": "240.9c/L",
+      "price_bowser": 249.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Yatala",
-      "price": 244.9,
-      "price_str": "244.9c/L",
-      "price_bowser": 253.9,
+      "price": 240.9,
+      "price_str": "240.9c/L",
+      "price_bowser": 249.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Hemmant",
-      "price": 243.9,
-      "price_str": "243.9c/L",
-      "price_bowser": 252.9,
+      "price": 240.9,
+      "price_str": "240.9c/L",
+      "price_bowser": 249.9,
       "fuel_type": "Diesel"
     },
     {
       "name": "Pacific Fuel - Caboolture",
-      "price": 245.9,
-      "price_str": "245.9c/L",
-      "price_bowser": 254.9,
+      "price": 240.9,
+      "price_str": "240.9c/L",
+      "price_bowser": 249.9,
       "fuel_type": "Diesel"
     },
     {
@@ -61,9 +61,9 @@
     },
     {
       "name": "United Petrol - Park Ridge",
-      "price": 244.9,
-      "price_str": "244.9c/L",
-      "price_bowser": 248.9,
+      "price": 246.9,
+      "price_str": "246.9c/L",
+      "price_bowser": 250.9,
       "fuel_type": "Diesel"
     },
     {
@@ -75,9 +75,9 @@
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 243.9,
-      "price_str": "243.9c/L",
-      "price_bowser": 247.9,
+      "price": 242.9,
+      "price_str": "242.9c/L",
+      "price_bowser": 246.9,
       "fuel_type": "Diesel"
     }
   ]
