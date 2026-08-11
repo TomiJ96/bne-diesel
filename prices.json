@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-11T16:00:47",
-  "last_updated_str": "Tuesday, 11 August 2026 at 04:00 PM",
+  "last_updated": "2026-08-11T20:00:50",
+  "last_updated_str": "Tuesday, 11 August 2026 at 08:00 PM",
   "is_mock": false,
   "stations": [
     {
@@ -40,9 +40,9 @@
     },
     {
       "name": "United Petrol - Archerfield",
-      "price": 228.5,
-      "price_str": "228.5c/L",
-      "price_bowser": 232.5,
+      "price": 227.5,
+      "price_str": "227.5c/L",
+      "price_bowser": 231.5,
       "fuel_type": "Diesel"
     },
     {
@@ -75,9 +75,9 @@
     },
     {
       "name": "United Petrol - Forestdale",
-      "price": 241.9,
-      "price_str": "241.9c/L",
-      "price_bowser": 245.9,
+      "price": 240.9,
+      "price_str": "240.9c/L",
+      "price_bowser": 244.9,
       "fuel_type": "Diesel"
     }
   ]
